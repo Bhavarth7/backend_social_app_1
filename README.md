@@ -22,7 +22,6 @@ This documentation aims to guide developers in building a robust and scalable No
 
 2. Project Structure
 The project structure is organized as follows:
-
 models: Contains database models (e.g., User, Post, Comment).
 routes: Includes route files for different functionalities (e.g., auth, user, profile, posts, comments).
 middleware: Holds middleware functions (e.g., error handling).
@@ -33,22 +32,14 @@ Other folders: Additional folders for utilities, tests, etc., based on project r
 Prerequisites
 Node.js installed
 MongoDB installed or MongoDB Atlas account
-Installation
-Clone the repository:
-bash
-Copy code
-git clone <repository_url>
-cd project_folder
-Install dependencies:
-bash
-Copy code
-npm install
+
 Configuration
 Create a .env file based on .env.example.
 Set environment variables including PORT, MONGODB_URI, JWT_SECRET, etc.
 MongoDB Setup
 Connect to your MongoDB instance.
 Create a new database for the project.
+
 4. Implementation Details
 User Authentication
 Implemented user registration, login, and optionally, logout.
